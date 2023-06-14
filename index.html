@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors Game</h1>
+    <div class="game-options">
+      <div class="option" onclick="playGame('rock')">
+        <img src="images/rock.png" alt="Rock">
+      </div>
+      <div class="option" onclick="playGame('paper')">
+        <img src="images/paper.png" alt="Paper">
+      </div>
+      <div class="option" onclick="playGame('scissors')">
+        <img src="images/scissors.png" alt="Scissors">
+      </div>
+    </div>
+    <div class="game-results">
+      <h3>Game Result:</h3>
+      <p id="resultText"></p>
+    </div>
+    <div class="scoreboard">
+      <div class="score">
+        <h3>Score:</h3>
+        <div class="player-score">
+          <h4>Player Score:</h4>
+          <p id="playerScore">0</p>
+        </div>
+        <div class="computer-score">
+          <h4>Computer Score:</h4>
+          <p id="computerScore">0</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
